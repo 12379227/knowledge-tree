@@ -15,8 +15,8 @@ if ((当前时间 - 上次获取资源的时间) > Cache-Control.max-age)
     || Cache-Control.no-cache == true)//过期
 {
     /*发送请求
-    GET /file;
-    If-None-Match: x123ddd; x123ddd 是ETag令牌
+    GET /file
+    If-None-Match: x123ddd x123ddd 是ETag令牌
     */
 
     //server response
