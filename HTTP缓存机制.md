@@ -6,7 +6,7 @@
 
 #### 主要流程
 
-*browser端逻辑*
+*browser端逻辑*
 
 ```c++
 /*browser*/
@@ -94,6 +94,6 @@ else
 - 确保服务器提供验证令牌(ETag)
 
 
-![http缓存](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching?hl=zh-cn)
+>[http缓存](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching?hl=zh-cn)
 
 
