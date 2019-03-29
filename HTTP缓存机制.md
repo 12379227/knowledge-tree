@@ -52,7 +52,7 @@ if  (x123ddd == file.ETag)
     /*组装 response
     {
         304 Not Modified
-        Cache-Control: max-age=xxx or nocache
+        Cache-Control: max-age=xxx or no-cache
         ETag: x123ddd
     } 
     */
@@ -65,7 +65,7 @@ else
     {
         200 OK
         Centent-Length: 1024
-        Cache-Control: max-age=xxx or nocache
+        Cache-Control: max-age=xxx or no-cache
         ETag: x23424fff ---new ETag
         (data)
     } 
