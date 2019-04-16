@@ -1,6 +1,6 @@
 ## 从gitlab从导出issue到CSV文件简要步骤
 
-### 1. 生成PRIVATE-TOKEN 
+### 1. 生成PRIVATE-TOKEN 
 http://git.xxx.com/profile/personal_access_tokens
 
 ### 2. 获得gourp id
