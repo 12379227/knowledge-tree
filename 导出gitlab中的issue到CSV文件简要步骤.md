@@ -23,7 +23,7 @@ curl --header "PRIVATE-TOKEN:xxx-token" http://git.xxx.com/api/v3/projects/xxx-p
 - 导出issue的时候可以带参数: 使用curl命令行貌似只能带一个参数, 直接写代码可以带多个参数
   - per_page: 默认情况下, 1页20个issues, 最多1页 100个issues
   - page: 获取第几页的issue, 从1开始
-  - state=opened or state=closed: 状态是opened的issue还是closed的issue
+  - state=opened or state=closed: 状态是opened的issue还是closed的issue
 
 
 
