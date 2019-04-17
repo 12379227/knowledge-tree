@@ -94,7 +94,8 @@
 - 2018 (攻击)
   - 事件: 攻击进入T时代. 
   - 攻击手段: memcached UDP反射攻击. 攻击峰值达到1.72Tbps
-  - >影响: 美国东部时间周三下午，**GitHub**透露其可能遭受了有史最强的DDoS攻击，专家称攻击者采用了放大攻击的新方法Memcached反射攻击，可能会在未来发生更大规模的分布式拒绝服务（DDoS）攻击。对GitHub平台的第一次峰值流量攻击达到了1.35Tbps，随后又出现了另外一次400Gbps的峰值，这可能也将成为目前记录在案的最强DDoS攻击，此前这一数据为1.1Tbps。
+ 
+ > 影响: 美国东部时间周三下午，**GitHub**透露其可能遭受了有史最强的DDoS攻击，专家称攻击者采用了放大攻击的新方法Memcached反射攻击，可能会在未来发生更大规模的分布式拒绝服务（DDoS）攻击。对GitHub平台的第一次峰值流量攻击达到了1.35Tbps，随后又出现了另外一次400Gbps的峰值，这可能也将成为目前记录在案的最强DDoS攻击，此前这一数据为1.1Tbps。
   - Tips: 
   [What is memcached?](https://blog.cloudflare.com/memcrashed-major-amplification-attacks-from-port-11211/)
 <br>
