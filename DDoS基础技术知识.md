@@ -124,12 +124,12 @@
          -  Sockstress: TCP握手过程中, 发送TCP ACK WIN=0, 导致服务器端一直询问客户端的发送窗口是否空闲. 
          -  SSL THC: 利用客户端和服务器端的SSL握手资源消耗不对等进行攻击
   <br>
--  业务消耗型攻击(应用层攻击)
-  -  CC攻击: 利用大量的以小博大合法请求+proxy隐藏攻击源
-  -  HTTP 洪水
-  -  Slowloris 慢速攻击: (利用http协议中请求以\r\n结尾), 攻击者发送HTTP请求不带\r\n, 导致服务器Web应用认为请求没有结束. 
-  -  慢速POST攻击: 利用Content-Length字段, 客户端慢慢发送数据, 直到达到Content-Length的值, 从而消耗Web Server的资源
-  -  数据处理过程攻击(正则表达式攻击[ReDOS]/Hash冲突攻击)
+- 业务消耗型攻击(应用层攻击)
+  - CC攻击: 利用大量的以小博大合法请求+proxy隐藏攻击源
+  - HTTP 洪水
+  - Slowloris 慢速攻击: (利用http协议中请求以\r\n结尾), 攻击者发送HTTP请求不带\r\n, 导致服务器Web应用认为请求没有结束. 
+  - 慢速POST攻击: 利用Content-Length字段, 客户端慢慢发送数据, 直到达到Content-Length的值, 从而消耗Web Server的资源
+  - 数据处理过程攻击(正则表达式攻击[ReDOS]/Hash冲突攻击)
   <br>
 -  DNS攻击
    -  目标: DNS解析服务不可用
