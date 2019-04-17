@@ -125,11 +125,11 @@
          -  SSL THC: 利用客户端和服务器端的SSL握手资源消耗不对等进行攻击
   <br>
 -  业务消耗型攻击(应用层攻击)
-   -  CC攻击: 利用大量的以小博大合法请求+proxy隐藏攻击源
-   -  HTTP 洪水
-   -  Slowloris 慢速攻击: (利用http协议中请求以\r\n结尾), 攻击者发送HTTP请求不带\r\n, 导致服务器Web应用认为请求没有结束. 
-   -  慢速POST攻击: 利用Content-Length字段, 客户端慢慢发送数据, 直到达到Content-Length的值, 从而消耗Web Server的资源
-   -  数据处理过程攻击(正则表达式攻击[ReDOS]/Hash冲突攻击)
+  -  CC攻击: 利用大量的以小博大合法请求+proxy隐藏攻击源
+  -  HTTP 洪水
+  -  Slowloris 慢速攻击: (利用http协议中请求以\r\n结尾), 攻击者发送HTTP请求不带\r\n, 导致服务器Web应用认为请求没有结束. 
+  -  慢速POST攻击: 利用Content-Length字段, 客户端慢慢发送数据, 直到达到Content-Length的值, 从而消耗Web Server的资源
+  -  数据处理过程攻击(正则表达式攻击[ReDOS]/Hash冲突攻击)
   <br>
 -  DNS攻击
    -  目标: DNS解析服务不可用
@@ -152,7 +152,7 @@
 
 #### 太极盾是一个什么样的存在?
 
-> DNS攻击防护
+- DNS攻击防护
   - 采用动态Token技术, 无需网络交互, 客户端SDK自动生成云防护节点IP, 无需调度中心及DNS域名解析, 有效避免DNS攻击
 - DDoS攻击防护 (整合带宽消耗型和资源消耗型攻击)
   - 客户端集成安全SDK, 采用欺骗混淆技术, 难以获取云防护节点IP
