@@ -18,7 +18,7 @@ else
 {
   if (last_my_packet.SYN == 1 || last_my_packet.FIN == 1)
   	current_my_packet.seq = last_my_packet.seq + 1;
-	else
+  else
   	current_my_packet.seq = last_my_packet.seq + last_my_pacetk.len;
 }
 
