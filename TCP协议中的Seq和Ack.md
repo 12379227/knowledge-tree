@@ -2,9 +2,11 @@
 
 - Ack: 
   - acknowledge number: 表示的是期望的对方(接收方)的下一次sequence number是多少. 
+  - acknowledge number: **表示对本方已经成功接收对方多少报文的确认**. 
   - 接收到的上一次远端主机传来的seq, 然后+1, 在发送给远端主机. 提示远端主机已经成功接收上一次所有数据. 
 - Seq: 
   - sequence number: 表示的是我方(发送方)这边, 这个packet的数据部分的第一位***应该***在整个data stream终端所在的位置. 
+  - sequence number: **表示对本方已经发送了多少报文的确认**
   - 经过wireshark显示, tcp握手第一个SYN报文的seq = 0. 
 - SYN/FIN的传输虽然没有data, 但是会让下一次传输的packet seq➕1, 但是, ACK的传输, 不会让下一次的传输packet seq➕1
 
